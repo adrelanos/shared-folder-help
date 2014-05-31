@@ -1,0 +1,24 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying conditions.
+
+Source: shared-folder-help
+Section: misc
+Priority: optional
+Maintainer: Patrick Schleizer <adrelanos@riseup.net>
+Build-Depends: debhelper (>= 8), faketime, git
+Homepage: https://github.com/Whonix/shared-folder-help
+Vcs-Browser: https://github.com/Whonix/shared-folder-help
+Vcs-Git: https://github.com/Whonix/shared-folder-help.git
+Standards-Version: 3.9.4
+
+Package: shared-folder-help
+Architecture: all
+Depends: anon-base-files, ${misc:Depends}
+Description: Makes setting up a shared folder for virtual machines a bit easier
+ Creates a folder /mnt/shared with chmod 777, adds a group "vboxsf", adds user
+ "user" to group "vboxsf".
+ .
+ Currently only helps using shared folders with VirtualBox a bit easier (as in
+ requiring fewer manual steps from the user). Might in future make use of other
+ virtual machine's shared folders easier.
