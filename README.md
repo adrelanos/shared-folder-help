@@ -1,7 +1,7 @@
 # Makes setting up a shared folder for virtual machines a bit easier #
 
-Creates a folder /mnt/shared with chmod 777, adds a group "vboxsf", adds user
-"user" to group "vboxsf".
+A metapackage, that creates a folder /mnt/shared with chmod 777, adds a group
+"vboxsf", adds user "user" to group "vboxsf".
 
 Currently only helps using shared folders with VirtualBox a bit easier (as in
 requiring fewer manual steps from the user). Might in future make use of other
