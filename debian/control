@@ -14,7 +14,7 @@ Standards-Version: 3.9.4
 
 Package: shared-folder-help
 Architecture: all
-Depends: anon-base-files, ${misc:Depends}
+Depends: ${misc:Depends}
 Description: Makes setting up a shared folder for virtual machines a bit easier
  A metapackage, that creates a folder /mnt/shared with chmod 777, adds a group
  "vboxsf", adds user "user" to group "vboxsf".
