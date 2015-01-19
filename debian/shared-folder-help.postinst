@@ -28,7 +28,8 @@ case "$1" in
       mkdir --parents /mnt/shared
       chmod 777 /mnt/shared
       addgroup vboxsf || true
-      addgroup user vboxsf
+      ## TODO: make sure user "user" exists.
+      addgroup user vboxsf || true
 
       true "INFO: End configuring $DPKG_MAINTSCRIPT_PACKAGE."
 
