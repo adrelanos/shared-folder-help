@@ -6,8 +6,6 @@
 Description=Mounts KVM shared folder during start
 ConditionPathExists=/mnt/shared
 ConditionVirtualization=kvm
-Before=graphical.target
-Before=getty.target
 
 [Service]
 Type=oneshot
