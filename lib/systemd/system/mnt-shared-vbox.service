@@ -8,8 +8,6 @@ ConditionPathExists=/mnt/shared
 ConditionVirtualization=oracle
 After=vboxguest.service
 After=virtualbox-guest-utils.service
-Before=graphical.target
-Before=getty.target
 
 [Service]
 Type=oneshot
