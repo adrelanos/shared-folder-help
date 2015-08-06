@@ -1,0 +1,18 @@
+## This file is part of Whonix.
+## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## See the file COPYING for copying condtions.
+
+[Unit]
+Description=Mounts VirtualBox shared folder during start
+ConditionPathExists=/mnt/shared
+ConditionVirtualization=oracle
+After=vboxguest.service
+After=virtualbox-guest-utils.service
+
+[Service]
+Type=oneshot
+ExecStart=/bin/mount -t vboxsf -o uid=1000,gid=1000 shared /mnt/shared
+RemainAfterExit=yes
+
+[Install]
+WantedBy=multi-user.target
