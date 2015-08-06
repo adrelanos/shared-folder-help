@@ -6,7 +6,7 @@ Source: shared-folder-help
 Section: misc
 Priority: optional
 Maintainer: Patrick Schleizer <adrelanos@riseup.net>
-Build-Depends: debhelper (>= 9), faketime, genmkfile
+Build-Depends: debhelper (>= 9), faketime, genmkfile, dh-systemd
 Homepage: https://github.com/Whonix/shared-folder-help
 Vcs-Browser: https://github.com/Whonix/shared-folder-help
 Vcs-Git: https://github.com/Whonix/shared-folder-help.git
@@ -17,7 +17,7 @@ Architecture: all
 Depends: ${misc:Depends}
 Description: Makes setting up a shared folder for virtual machines a bit easier
  A metapackage, that creates a folder /mnt/shared with chmod 777, adds a group
- "vboxsf", adds user "user" to group "vboxsf".
+ "vboxsf", adds user "user" to group "vboxsf". Facilitates auto-mounting of shared folders.
  .
  Currently only helps using shared folders with VirtualBox a bit easier (as in
  requiring fewer manual steps from the user). Might in future make use of other
