@@ -1,3 +1,94 @@
+commit e803ecd840a51d59ad2f06df028d483d6d5b1d4e
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 6 17:08:49 2015 +0200
+
+    fix package description lintian warning
+
+commit 3acaf416af6b2d949ad8571aff38df9cade51dc4
+Merge: 9a21f98 a099bfd
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 6 17:06:22 2015 +0200
+
+    Merge remote-tracking branch 'origin/master'
+
+commit a099bfd63f547f703ccfaeda1dc1609c9d983b45
+Merge: 349c90c 801c8ea
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 6 17:05:23 2015 +0200
+
+    Merge pull request #4 from HulaHoopWhonix/patch-4
+    
+    added dh-systemd build dependency
+
+commit 349c90cb61c3cc80f31bf0f740892e616c8b8173
+Merge: d2d415c 956d200
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 6 17:05:09 2015 +0200
+
+    Merge pull request #3 from HulaHoopWhonix/patch-3
+    
+    --with systemd
+
+commit d2d415cf1d6d7be1c91d3fe2f396f0ce47b28c40
+Merge: 9ba17bb d594146
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 6 17:05:02 2015 +0200
+
+    Merge pull request #2 from HulaHoopWhonix/patch-2
+    
+    mnt-shared-vbox.service
+
+commit 9ba17bbfb4bb09803c755fc1054c904a33bc0ee0
+Merge: 9a21f98 61ed861
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Aug 6 17:04:52 2015 +0200
+
+    Merge pull request #1 from HulaHoopWhonix/patch-1
+    
+    mnt-shared-kvm.service
+
+commit 61ed861533b70dd81c2b90bd253086190215ef6b
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Wed Jun 17 06:03:12 2015 +0000
+
+    Update mnt-shared-kvm.service
+
+commit d594146374bd5e744218f1144beb6148f5a29e64
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Wed Jun 17 06:00:31 2015 +0000
+
+    Update mnt-shared-vbox.service
+
+commit 801c8eaaf71b792c7eb51b2d0b586a1dfec84adf
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Tue Jun 16 03:17:12 2015 +0000
+
+    added dh-systemd build dependency
+
+commit 956d200299cd4dcc8e70e8da1767b99e50f16c2e
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Tue Jun 16 03:11:54 2015 +0000
+
+    --with systemd
+
+commit 6a7872801c10c47aa101213fe17f593dab5e8a36
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Tue Jun 16 03:08:26 2015 +0000
+
+    mnt-shared-vbox.service
+
+commit 400caefc03156664abef0dbf5db26e308ddadf32
+Author: HulaHoopWhonix <bancfc@openmailbox.org>
+Date:   Tue Jun 16 02:59:09 2015 +0000
+
+    mnt-shared-kvm.service
+
+commit 9a21f9816b89a8eff7cc6b35cb936a03f696d0ab
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Wed Jun 3 15:00:16 2015 +0000
+
+    bumped changelog version
+
 commit 68a411972c605aa208057d1277375724b39bf148
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Thu Apr 30 17:56:51 2015 +0000
