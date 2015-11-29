@@ -9,7 +9,7 @@ ConditionVirtualization=kvm
 
 [Service]
 Type=oneshot
-ExecStart=/bin/mount -t 9p -o trans=virtio shared /mnt/shared -oversion=9p2000.L
+ExecStart=/bin/mount -t 9p -o trans=virtio shared /mnt/shared -oversion=9p2000.L || true
 RemainAfterExit=yes
 
 [Install]
