@@ -1,3 +1,21 @@
+commit f10bbfd9b48b2af416add7a39b8efc6839f18aaf
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Dec 15 21:05:18 2015 +0000
+
+    updated README.md
+
+commit 24143991888ab900effe4b11f7eb55172af6793d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun Nov 29 18:34:38 2015 +0000
+
+    do not let systemd service enter failed state of host config has not been applied
+
+commit eb0f1bdefe11273c26710a4adae4f7c8115a8960
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Tue Aug 25 14:08:21 2015 +0000
+
+    bumped changelog version
+
 commit 2b0d3c55d2b3be21e04ccf9a840c6b7b08566b64
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Aug 24 17:47:24 2015 +0000
