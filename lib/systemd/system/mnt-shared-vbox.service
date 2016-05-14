@@ -11,7 +11,7 @@ After=virtualbox-guest-utils.service
 
 [Service]
 Type=oneshot
-ExecStart=/bin/mount -t vboxsf -o uid=1000,gid=1000 shared /mnt/shared || true
+ExecStart=/bin/bash -c '/bin/mount -t vboxsf -o uid=1000,gid=1000 shared /mnt/shared || true'
 RemainAfterExit=yes
 
 [Install]
