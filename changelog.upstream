@@ -1,3 +1,15 @@
+commit ca73a3e101b55b591d9712a53e7b8e524bf9a869
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Jan 12 03:04:56 2017 +0000
+
+    add Documentation= to fix stretch lintian warning
+
+commit a81e0fd5f11b0bddfa013402c79ceb136c47e590
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sat Dec 10 02:31:15 2016 +0000
+
+    bumped changelog version
+
 commit 0d861511a206548a03366fe0352decf9fd3706d3
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Nov 21 17:42:57 2016 +0000
