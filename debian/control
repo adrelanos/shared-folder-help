@@ -10,7 +10,7 @@ Build-Depends: debhelper (>= 9), faketime, genmkfile, dh-systemd
 Homepage: https://github.com/Whonix/shared-folder-help
 Vcs-Browser: https://github.com/Whonix/shared-folder-help
 Vcs-Git: https://github.com/Whonix/shared-folder-help.git
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: shared-folder-help
 Architecture: all
