@@ -1,3 +1,28 @@
+commit 6da4ce9b412c245b5b98577bd1d619a3039a5571
+Merge: 60da53f 5320a68
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Dec 21 21:00:07 2017 +0000
+
+    Merge remote-tracking branch 'origin/master'
+
+commit 5320a689d24f6b646f5ef37c021caaf103385dfd
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Thu Sep 14 15:34:53 2017 -0500
+
+    added comment about adding the group and user to vboxsf
+
+commit d47f0071cd279504790eccfdc9aae27136e76b10
+Author: Jason J. Ayala P <JasonJAyalaP+Github@Gmail.com>
+Date:   Thu Sep 14 15:32:55 2017 -0500
+
+    vbox service no longer needed. automount works.
+
+commit 60da53f54cd7b6fed8955a74f89c092f63f7b33b
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Mar 6 16:16:46 2017 +0000
+
+    bumped changelog version
+
 commit d96a570363176860ed0a43432969e1ac938a44f5
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Mar 6 15:00:18 2017 +0000
