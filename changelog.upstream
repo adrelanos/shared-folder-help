@@ -1,3 +1,16 @@
+commit 2130d872d4e346bc490e70fca79e572d1d1f86df
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Mon Feb 19 17:16:32 2018 +0100
+
+    ConditionVirtualization=|qemu
+    ConditionVirtualization=|kvm
+
+commit df27ee598af84793c3e1799a5a877808bfd941af
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Thu Feb 1 15:19:38 2018 +0000
+
+    bumped changelog version
+
 commit 0750f048376e7484b1784d0864396b7a7608d59c
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Mon Jan 29 15:50:36 2018 +0000
