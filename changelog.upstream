@@ -1,3 +1,31 @@
+commit 43d28a01dbece96048d10d8b8bda5aae63213f47
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun May 12 03:29:18 2019 -0400
+
+    move group vboxsf creation user "user" adding to it from postinst
+    
+    to conditional systemd unit file to avoid conflicts with KVM
+
+commit edd48d4f4e676078cbd0f9f8086196dec32bfb57
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun May 12 03:24:31 2019 -0400
+
+    re-add lib/systemd/system/mnt-shared-vbox.service to be repurposed
+    
+    This reverts commit d47f0071cd279504790eccfdc9aae27136e76b10.
+
+commit 1137ed95f3aa84d0cf9c9c9a1ce6945adb27778d
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Sun May 12 02:58:45 2019 -0400
+
+    update path to pre.bsh
+
+commit c7cbf91191fa9c33fbb9afb7880a887964a0af2a
+Author: Patrick Schleizer <adrelanos@riseup.net>
+Date:   Fri May 3 11:34:55 2019 +0000
+
+    bumped changelog version
+
 commit 72dffc20840f4ee71522e113688b979da6fac882
 Author: Patrick Schleizer <adrelanos@riseup.net>
 Date:   Fri May 3 10:56:56 2019 +0000
