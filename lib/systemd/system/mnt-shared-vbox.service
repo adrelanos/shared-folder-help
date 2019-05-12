@@ -1,18 +1,22 @@
 ## This file is part of Whonix.
-## Copyright (C) 2012 - 2014 Patrick Schleizer <adrelanos@riseup.net>
+## Copyright (C) 2012 - 2019 Patrick Schleizer <adrelanos@riseup.net>
 ## See the file COPYING for copying condtions.
 
 [Unit]
-Description=Mounts VirtualBox shared folder during start
+Description=creates group vboxsf and adds user "user" to it
 Documentation=https://github.com/Whonix/shared-folder-help
-ConditionPathExists=/mnt/shared
 ConditionVirtualization=oracle
-After=vboxguest.service
-After=virtualbox-guest-utils.service
 
 [Service]
 Type=oneshot
-ExecStart=/bin/bash -c '/bin/mount -t vboxsf -o uid=1000,gid=1000 shared /mnt/shared || true'
+
+## vbox guest additions should create the group and add user,
+## but we'll do it here to avoid any dependencies.
+ExecStart=/bin/bash -c '/usr/sbin/addgroup vboxsf || true'
+
+## TODO: make sure user "user" exists.
+ExecStart=/bin/bash -c '/usr/sbin/addgroup user vboxsf || true'
+
 RemainAfterExit=yes
 
 [Install]

@@ -26,11 +26,6 @@ case "$1" in
 
       mkdir --parents /mnt/shared
       chmod 777 /mnt/shared
-      ## vbox guest additions should create the group and add user,
-      ## but we'll do it here to avoid any dependencies.
-      addgroup vboxsf || true
-      ## TODO: make sure user "user" exists.
-      addgroup user vboxsf || true
 
       true "INFO: End configuring $DPKG_MAINTSCRIPT_PACKAGE."
 
