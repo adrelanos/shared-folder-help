@@ -19,6 +19,7 @@ case "$1" in
    configure)
       true "INFO: Configuring $DPKG_MAINTSCRIPT_PACKAGE..."
 
+      ## Required for KVM.
       mkdir --parents /mnt/shared
       chmod 777 /mnt/shared
 
