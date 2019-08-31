@@ -1,3 +1,9 @@
+shared-folder-help (3:3.3-1) unstable; urgency=medium
+
+  * New upstream version (local package).
+
+ -- Patrick Schleizer <adrelanos@riseup.net>  Sat, 31 Aug 2019 13:45:12 +0000
+
 shared-folder-help (3:3.2-1) unstable; urgency=medium
 
   * New upstream version (local package).
