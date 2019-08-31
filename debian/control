@@ -13,7 +13,7 @@ Standards-Version: 4.3.0
 
 Package: shared-folder-help
 Architecture: all
-Depends: ${misc:Depends}
+Depends: adduser, ${misc:Depends}
 Description: Makes setting up a shared folder for virtual machines a bit easier
  A metapackage, that creates a folder /mnt/shared with chmod 777, adds a group
  "vboxsf", adds user "user" to group "vboxsf". Facilitates auto-mounting of
